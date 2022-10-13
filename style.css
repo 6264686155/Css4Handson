@@ -1,0 +1,116 @@
+#head_div{
+    text-align: center;
+    background: linear-gradient(to right, red, green,yellow);
+}
+#sec_div{
+    text-align: center;
+    background-color: rgb(89, 174, 207);
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+#third_div{
+    background-color: rgb(92, 225, 181);
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.lorem_cl{
+    background-color: rgb(138, 255, 233);
+    border: 2px solid green;
+    border-radius: 5px;  
+    width: 30%;
+}
+    #fourth_div{
+        background: linear-gradient(to right,red,yellow,red);
+        text-align: center;
+        margin-top: 15px;
+    }
+    #fifth_div{
+        background: radial-gradient(blue,green);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .std_cl{
+        background-color: yellow;
+        border: 2px solid red;
+        margin-top: 50px;
+        border-radius: 10px;
+        width: 14%;
+        margin-left: -50px;
+        margin-bottom: 40px;
+        
+    }
+    .p_cl{
+        text-align: center;
+        font-weight: bold;
+    }
+    #grid_div{
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr 1fr;
+        grid-template-rows: 50px 80px 180px 30px;
+        grid-gap: 10px;
+        margin-top: 10px;
+
+    }
+    #six_div{
+        background-color: red;
+        color: white;
+        text-align: center;
+       padding: -20px;
+        grid-column: 1/5;
+        font-weight: bold;
+        
+        
+    }
+    #sub1{
+        background-color: rgb(9, 249, 169);
+        grid-column: 1/2;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        
+    }
+    #sub2{
+        background-color: rgb(41, 88, 243);
+        grid-column: 2/3;
+        color: white;
+    }
+    #sub3{
+        background-color: rgb(0, 0, 129);
+        grid-column: 3/4;
+        color: white;
+        padding-right: 80px;
+        
+    }
+    #sub4{
+        background-color: black;
+        grid-column: 4/5;
+        color: white;
+        height: 270px;
+        padding-right: 30px;
+        font-size: 13px;
+    
+    }
+    #sub_5{
+        background-color: orange;
+        grid-column: 1/4;
+        font-weight: bold;
+        color: white;
+
+    }
+    #sub6{
+        background-color: rgb(66, 221, 221);
+        grid-column: 1/5;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    
